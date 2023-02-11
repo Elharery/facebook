@@ -1,0 +1,21 @@
+@use "../pages/large" as *;
+// import
+@use "../pages/face-box" as *;
+// import
+@use "../pages/form" as *;
+// import
+@use "../pages/global" as *;
+// import
+@use "../pages/users-box" as *;
+// variables
+$theme: "light";
+//
+body{
+    font-family: "Helvetica", "Arial", "sans-serif";
+    @if $theme == "light"{
+        background-color: #f0f2f5;
+    }
+    @else{
+        background-color: #444;
+    }
+}

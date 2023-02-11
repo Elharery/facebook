@@ -1,0 +1,11 @@
+.large{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px auto;
+}
+@media (max-width:767px){
+    .large{
+        flex-direction: column;
+    }
+}
